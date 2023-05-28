@@ -20,7 +20,7 @@ async function loadUsers() {
     for (let user of users) {
         let userHtml = "<tr>\n" +
             "                                            <td>"+ user.id +"</td>\n" +
-            "                                            <td>"+ (user.name + " " + user.lastName) +"</td>\n" +
+            "                                            <td>"+ (user.name + " " + user.last_name) +"</td>\n" +
             "                                            <td>"+ user.email +"</td>\n" +
             "                                            <td>"+ user.phone +"</td>\n" +
             "                                            <td>\n" +
